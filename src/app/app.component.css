@@ -1,0 +1,50 @@
+.navbar-custom {
+    background: Green;
+    background-color:rgb(12, 182, 145);
+
+      
+       
+    }
+    #font-adjust{
+        font-family: Courier;
+        background: rgb(12, 182, 145);
+        font-weight:bold;
+        color:rgb(56, 58, 47);
+        cursor:pointer;
+        box-shadow: 0 3px 20px 0 #80105e;
+        
+       text-transform: uppercase;
+       position :center;
+       border-radius: 5px;
+       display: flex;
+       margin-left: auto;
+        margin-right: auto;}
+
+        .font-adjust:hover {
+            transform: rotate(360deg);
+            background: #9351A6;
+            border-radius: 50%;
+          }
+
+    P.blocktext {
+        margin-left: auto;
+        margin-right: auto;
+        width: 8em;
+        color:Red;
+    }
+
+    footer{
+        /* .set the height of the footer */
+        height: 30 px;
+        width: 100%;
+        /* just setting a color so you can see the footer */
+        background: rgb(12, 182, 145); 
+        position: fixed;
+        flex-shrink: 0;
+        text-align: center;
+        -webkit-text-fill-color: rgb(2, 2, 2);
+        left: 0;
+        bottom: 0;
+    }
+
+    
